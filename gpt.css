@@ -53,20 +53,10 @@ body{
 	width: 100%;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768) {
 	.navbar{
-		flex-direction: column;
-		font-size: 15px;
-		
-		
-	}
-	.navbar ul li{
-		margin:0;
-		margin-right: 15px;
-		margin-bottom: 10px;
-	}
-
-	
+		display: none;
+}
 }
 
 .fun-fact {
