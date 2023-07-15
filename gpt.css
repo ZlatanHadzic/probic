@@ -56,21 +56,15 @@ body{
 @media (max-width: 767px) {
       .navbar {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        align-items: flex-start;
       }
       
-      .logo {
-        margin-bottom: 10px;
-      }
-      
-      .menu {
+      .navbar ul {
         flex-direction: column;
       }
       
-      .menu li {
-        margin-right: 0;
-        margin-bottom: 10px;
+      .navbar ul li {
+        margin: 10px 0;
       }
     }
 
