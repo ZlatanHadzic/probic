@@ -53,11 +53,26 @@ body{
 	width: 100%;
 }
 
-@media (max-width: 768) {
-	.navbar{
-		display: none;
-}
-}
+@media (max-width: 767px) {
+      .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .logo {
+        margin-bottom: 10px;
+      }
+      
+      .menu {
+        flex-direction: column;
+      }
+      
+      .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
 
 .fun-fact {
 	display: -ms-grid;
