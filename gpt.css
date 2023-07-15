@@ -54,7 +54,7 @@ body{
 }
 
 @media (max-width: 767px) {
-      .navbar {
+      .navbar ul li {
        display: none;
       }
 }
