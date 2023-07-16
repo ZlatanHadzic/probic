@@ -698,6 +698,9 @@ tr td{
 .contact-right h3{
 	font-size: 20px;
 }
+	.input-row .input-group{
+	flex-basis: 30%;
+}
 }
 
 .footer {
