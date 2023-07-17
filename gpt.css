@@ -245,6 +245,16 @@ h1 {
 	color:#6c757d;
 	text-align: center;
 }
+.hidden {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .visible {
+	opacity: 1;
+	transform: translateY(0);
+  }
 @media (max-width: 768px) {
 	.puca h3 {
 	  font-size: 30px;
