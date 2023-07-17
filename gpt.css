@@ -654,10 +654,14 @@ font-size: 25px;
 .container1 h1{
 	color: blue;
 	font-weight: bold;
+	opacity: 0;
+	animation: fade-in 2s forwards;
 }
 .container1 p{
 	color: green;
 	font-weight: bold;
+	opacity: 0;
+	animation: fade-in 2s forwards;
 }
 .contact-box{
 	background: white;
@@ -732,6 +736,16 @@ tr td{
 	padding-top: 20px;
 	color: white;
 }
+.hidden {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .visible {
+	opacity: 1;
+	transform: translateY(0);
+  }
 @media (max-width: 1045px) {
 	.contact-box{
 	display: block;
