@@ -132,6 +132,9 @@ body{
 .content h1{
 	font-size: 70px;
 	margin-top: 80px;
+	opacity: 0;
+	animation: fade-in 2s forwards;
+	
 
 }
 .content p{
