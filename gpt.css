@@ -617,12 +617,26 @@ h1 {
 	font-size: 2rem;
 	text-transform: capitalize;
 	color: #334;
+	  opacity: 0;
+	  animation: fade-in 2s forwards;
   }
   
   .facilities .box-container .box p {
 	font-size: 1.4rem;
 	line-height: 2;
 	color: #777;
+	  opacity: 0;
+	  animation: fade-in 2s forwards;
+  }
+.hidden {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .visible {
+	opacity: 1;
+	transform: translateY(0);
   }
   @media (max-width: 768) {
   .facilities .box-container .box h3{
