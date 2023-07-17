@@ -87,6 +87,8 @@ body{
 	font-size: 4rem;
 	text-transform: capitalize;
 	color: #334;
+	  opacity: 0;
+	  animation: fade-in 2s forwards;
   }
   
   .fun-fact .box p {
@@ -94,6 +96,16 @@ body{
 	line-height: 2;
 	color: #777;
 	padding-top: .5rem;
+	   opacity: 0;
+	  animation: fade-in 2s forwards;
+  }
+@keyframes fade-in {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
   }
   @media screen and (max-width: 767px) {
 	.fun-fact {
