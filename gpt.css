@@ -507,6 +507,12 @@ h1 {
 .text-container h1{
     font-size: 70px;
     padding: 20px 0px;
+	opacity: 0;
+	animation: fade-in 2s forwards;
+}
+.text-container p{
+	opacity: 0;
+	animation: fade-in 2s forwards;
 }
 .text-container a{
     text-decoration: none;
